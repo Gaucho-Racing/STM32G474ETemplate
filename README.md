@@ -1,4 +1,4 @@
-# Required stuff
+* # Required stuff
 ## applications
 * [CMAKE](https://cmake.org/download/)  
 * [ARM toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)  
@@ -16,3 +16,10 @@ Download Required stuff and add to PATH
 Generate the build stuff with `cmake --preset <target>`. With target in development being `Debug` typically.  
 Run and Debug Debug using the provided Debug config, Cortex Debug  
 Cry as nothing works
+
+# Debugging
+If something doesn't work chances are one of the tools wasn't added to path correctly, run each of the tools independently  
+* CMAKE - `cmake --version`
+* ARM toolchain - `arm-none-eabi-gcc --version`
+* openocd - `openocd --version`
+* ninja - `ninja --version`
