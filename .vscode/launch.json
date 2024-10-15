@@ -1,7 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [{
-        "cwd": "${workspaceRoot}",
+        "cwd": "${workspaceFolder}",
         "executable": "./build/Debug/STM32Template.elf",
         "name": "Debug with OpenOCD",
         "request": "launch",
@@ -9,8 +9,9 @@
         "servertype": "openocd",
         "configFiles": ["interface/stlink.cfg", "target/stm32g4x.cfg"],
         "searchDir": [],
+        "preLaunchTask": "CMake: build",
         "showDevDebugOutput": "none",
-        "svdFile": "STM32G474.svd"
+        "svdPath": "${workspaceFolder}/.vscode/STM32G474.svd"
     }],
     "compounds": []
 }
