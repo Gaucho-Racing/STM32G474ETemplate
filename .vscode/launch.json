@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "cwd": "${workspaceRoot}",
+        "executable": "./build/Debug/STM32Template.elf",
+        "name": "Debug with OpenOCD",
+        "request": "launch",
+        "type": "cortex-debug",
+        "servertype": "openocd",
+        "configFiles": ["interface/stlink.cfg", "target/stm32g4x.cfg"],
+        "searchDir": [],
+        "showDevDebugOutput": "none",
+        "svdFile": "STM32G474.svd"
+    }],
+    "compounds": []
+}

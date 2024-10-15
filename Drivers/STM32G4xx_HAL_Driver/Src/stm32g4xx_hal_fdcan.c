@@ -3477,7 +3477,7 @@ static void FDCAN_CalcultateRamBlockAddresses(FDCAN_HandleTypeDef *hfdcan)
   *         the configuration information for the specified FDCAN.
   * @param  pTxHeader pointer to a FDCAN_TxHeaderTypeDef structure.
   * @param  pTxData pointer to a buffer containing the payload of the Tx frame.
-  * @param  BufferIndex index of the buffer to be configured.
+  * @param  Bufferndex index of the buffer to be configured.
   * @retval none
  */
 static void FDCAN_CopyMessageToRAM(const FDCAN_HandleTypeDef *hfdcan, const FDCAN_TxHeaderTypeDef *pTxHeader,
