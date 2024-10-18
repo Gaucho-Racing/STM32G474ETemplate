@@ -24,6 +24,7 @@
 #include "spi.h"
 #include "gpio.h"
 
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -47,7 +48,6 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -94,7 +94,7 @@ int main(void)
   MX_CRC_Init();
   MX_FDCAN1_Init();
   MX_FDCAN2_Init();
-  MX_SPI1_Init();
+  //MX_SPI1_Init(); //SPI1 SCK intereferes with led PA5
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
