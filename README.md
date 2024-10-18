@@ -1,14 +1,14 @@
 * # Required stuff
 ## applications
+Mac and Unix download using package managers (besides arm-toolchain), windows use links below
 * [CMAKE](https://cmake.org/download/)  
-* [ARM toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)  
-* [openocd](https://openocd.org/pages/getting-openocd.html)  
+* [ARM toolchain (arm-none-eabi)](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)  
+* [openocd (windows use this link)](https://github.com/openocd-org/openocd/releases/tag/v0.12.0)  
 * [ninja](https://github.com/ninja-build/ninja/releases)  
 ## vscode extensions
 * CMAKE  
 * Cortex Debug
 ### Optional Vscode extensions
-* RTOS Views
 * Serial Monitor
 
 # How 2 Run
