@@ -12,9 +12,11 @@ Mac and Unix download using package managers (besides arm-toolchain), windows us
 * Serial Monitor
 
 # How 2 Run
-Download Required stuff and add to PATH  
-Generate the build stuff with `cmake --preset <target>`. With target in development being `Debug` typically.  
-Run and Debug Debug using the provided Debug config, Cortex Debug  
+1. Download Required stuff and add to PATH
+2. Open VSCode  
+3. If the CMake Extension prompts you to set up the configuration, choose DEBUG and proceed to step 5
+4. Generate the build stuff with `cmake --preset <target>`. With target in development being `Debug` typically.  
+5. Run and Debug, Debug using the provided Debug config, Cortex Debug  
 Cry as nothing works
 
 # Debugging
