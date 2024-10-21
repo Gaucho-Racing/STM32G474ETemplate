@@ -1,4 +1,5 @@
-* # Required stuff
+see [git wiki page](https://wiki.gauchoracing.com/books/onboarding/page/git) for a primer on git
+# Required stuff
 ## applications
 Mac and Unix download using package managers (besides arm-toolchain), windows use links below
 * [CMAKE](https://cmake.org/download/)  
